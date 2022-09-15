@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LojaWEB: onde vende tudo!</title>
+
+    <!--importando fontes externas -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- . -->
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/root.css">
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/colors.css">
+</head>
+
+<body class="black">
+    <main>
+        <header class="row bg-darkblue">
+            <div class="logo col-2">
+                <img src="./img/logo1.png" alt="logomarca Amazon" height="50">
+            </div>
+            <div class="localizacao col-2">
+                <div>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
+                </div>
+                <div>
+                    <span>Olá</span>
+                    <span>Selecione o endereço</span>
+                </div>
+            </div>
+            <div class="pesquisa col-4">
+                <form action="" class="formPerquisa">
+                    <label for="selectTipo"></label>
+                    <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
+                        <option value="0" selected>
+                            Todos
+                        </option>
+                        <option value="1">
+                            Eletrônicos
+                        </option>
+                        <option value="2">
+                            Casa
+                        </option>
+                    </select>
+
+                    <label for="nomeProduto"></label>
+                    <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
+                        placeholder="Nome do produto">
+
+                    <!-- <label for=""></label> -->
+                    <!-- <input type="submit" value=""> -->
+                    <button type="submit" title="Fazer Pesquisa">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="login col-2">
+                <span>
+                    Olá, faça seu login
+                </span>
+                <span>
+                    Contas e Listas
+                </span>
+            </div>
+            <div class="pedidos col-1">
+                <span>Devoluções</span>
+                <span>e Pedidos</span>
+            </div>
+            <div class="carrinho col-1">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+            </div>
+        </header>
+        <nav class="row bg-blue">
+            <div>
+                <div class="menu col-1">
+                    <a href="http://">
+                        <i class="fa-solid fa-bars"></i><span>Todos</span>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://">
+                        Venda na Amazon
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://">
+                        Mais vendidos
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://">
+                        Ofertas do dia
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://">
+                        Atendimento ao Cliente
+                    </a>
+                </div>
+                <div class="Prime col-1">
+                    <a href="http://">
+                        <span>Prime</span>
+                        <span class="nav_icon_arrow"><i class="fa-solid fa-caret-down"></i></span>
+                    </a>
+                </div>
+                <div class="col-03 propaganda">
+                    <img src="./img/propaganda1.png" alt="a-prime" height="30px">
+                </div>
+        </nav>
+        <section>
+            <div class="carousel col-12">
+                Carrossel
+            </div>
+        </section>
+        <div class="bg-gold col-12 produtos">
+            <div class="col-03 produto h400 center">
+                <h3 class="black center">Navegue por loja</h3>
+                <div><img src="./img/ecodot.jpg" alt="" width="80%">
+                    <p class="black center">Echodot</p>
+                </div>
+                <div><img src="./img/parafu.jpg" alt="" width="40%">
+                    <p class="black">Parafusadeiras</p>
+                </div>
+                <div>
+                    <img src="./img/game.jpg" alt="" width="40%">
+                    <p class="black right">Games</p>
+                </div>
+            </div>
+            <div class="col-3 produto h400">
+                <h3 class="black center">Produtos Amazon</h3>
+                <div>
+                    <img src="./img/firestick.jpg" alt="" width="100%">
+                    <p class="black center">Firestick</p>
+                </div>
+                <div>
+                    <img src="./img/echobuds.jpg" alt="" width="100%">
+                    <p class="black center">Echobuds</p>
+                </div>
+                <div>
+                    <img src="./img/kindle.jpg" alt="" width="100%">
+                    <p class="black center">Kindle</p>
+                </div>
+                <div>
+                    <img src="./img/echodot1.jpg" alt="" width="100%">
+                    <p class="black center">Echodot</p>
+                </div>
+            </div>
+            <div class="col-3 produto h400 center">
+                <h3 class="black center">Ofertas do dia</h3>
+                <div><img src="./img/oferta.jpg" alt="" width="100%"></div>
+            </div>
+            <div class="col-3 produto h400 center">
+                <h3 class="black center">Item 4</h3>
+                <div><img src="./img/neutrogena3.jpg" alt="" width="100%"></div>
+                <div><img src="./img/neutrogena2.jpg" alt="" width="40%"></div>
+                <div><img src="./img/neutrogena1.jpg" alt="" width="40%"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
