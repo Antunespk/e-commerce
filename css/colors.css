@@ -22,6 +22,10 @@
     background-color: var(--gray);
 }
 
+.gray2 {
+    color: var(--gray2);
+}
+
 .gold {
     color: var(--gold);
 }
@@ -36,6 +40,10 @@
 
 .bg-blue {
     background-color: var(--blue);
+}
+
+.bg-light-blue {
+    background-color: var(--lightblue);
 }
 
 .dark-blue {
