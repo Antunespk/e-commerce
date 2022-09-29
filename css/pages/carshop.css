@@ -1,0 +1,10 @@
+.cart {
+    margin: 25px auto;
+}
+
+.cart section div,
+.cart aside div {
+    background-color: var(--white);
+    margin-bottom: 20px;
+    padding: 10px;
+}

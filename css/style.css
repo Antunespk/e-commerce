@@ -3,7 +3,7 @@
 }
 
 .bg-gray {
-    background-color: var(--teal)
+    background-color: var(--gray)
 }
 
 body {
@@ -108,6 +108,7 @@ nav div menu {
 
 a {
     text-decoration: none;
+    color: var(--black);
 }
 
 a:hover {
@@ -290,7 +291,7 @@ a:hover {
     color: var(--orange);
 }
 
-section {
+.section {
     background-image: linear-gradient(transparent, var(--gray) 30%);
     position: relative;
     top: -250px;
@@ -318,4 +319,18 @@ section {
 
 .setas-left {
     left: 5px;
+}
+
+.item-carrinho {
+    background-color: var(--teal);
+    min-height: 700px;
+    height: 100%;
+
+}
+
+.col-lateral {
+    background-color: var(--gray);
+    min-height: 700px;
+    height: 100%;
+    min-width: 200px;
 }

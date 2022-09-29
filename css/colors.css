@@ -53,3 +53,7 @@
 .bg-darkblue {
     background-color: var(--dark-blue);
 }
+
+.bd-gray {
+    border-color: var(--gray);
+}
